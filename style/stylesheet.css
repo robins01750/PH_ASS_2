@@ -20,6 +20,17 @@ nav{
   display: flex;
 }
 
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Font import */
 
 
@@ -141,6 +152,7 @@ h1.fresh_flower {
 
 .fnp{
   margin-top: 200px;
+  align-items: flex-start;
 }
 .image_1 img{
     width: 540px;
@@ -152,6 +164,14 @@ h1.fresh_flower {
   width: 286px;
   height: 286px;
   padding: 10px;
+  animation: rotate 15s linear infinite;
+}
+.image_2{
+  
+  position: absolute;
+  top:1920px;
+  left:700px
+ 
 }
 
 .list{
@@ -280,5 +300,15 @@ border-radius: 15px;
   background-color: #d94e20;
 }
 
+.footer_middle{
+  display: flex;
+}
+.list_one a,.list_two a{
+  text-decoration: none;
+  list-style: none;
+}
 
-
+footer{
+  display: flex;
+  justify-content: space-between;
+}
