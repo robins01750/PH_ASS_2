@@ -1,0 +1,36 @@
+*{
+  margin: 0 auto;  
+}
+
+/* shared section */
+.mw{
+    max-width: 1140px;
+}
+.orange_color{
+    color: #E95A08;
+}
+.text_color{
+    color: #0000005A
+}
+
+
+
+/* Font import */
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
