@@ -37,6 +37,7 @@ nav{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
+  font-size: 22px;
   font-style: normal;
 }
 
@@ -62,10 +63,74 @@ h1.fresh_flower {
 
 .hero_tag{
   
-  max-width: 570px;
+  max-width: 50%;
   align-content: center;
 }
 
 .hero_image{
   max-width: 570px;
+}
+
+
+
+
+
+
+
+.section_one{
+  max-width: 888px;
+}
+.section_one p, .section_one h1{
+  text-align: center;
+}
+.plants_text{
+  font-size: 50px;
+ 
+}
+
+
+
+.card{
+  width:270px ;
+  height: 484.95px;
+  margin-top: 30px;
+}
+.product_section{
+  gap:20px;
+  flex-wrap: wrap;
+
+}
+.card h3{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500 ;
+  font-size: 22px;
+  font-style: normal;
+  color: rgba(17, 17, 17, 1);
+  text-align: center;
+}
+
+.card p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 22px;
+  font-style: normal;
+  color: rgba(17, 17, 17, 1);
+  text-align: center;
+}
+.card button{
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  color: #ffffff;
+  background-color: #E95A08;
+  border: none;
+  width: 270px;
+  height: 50px;
+  
+  
 }
