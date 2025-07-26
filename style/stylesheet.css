@@ -1,10 +1,13 @@
-*{
-  margin: 0 auto;  
-}
+
 
 /* shared section */
+nav{
+  justify-content: space-between;
+}
 .mw{
-    max-width: 1140px;
+  max-width: 1140px;
+  margin: 0 auto; 
+  
 }
 .orange_color{
     color: #E95A08;
@@ -13,7 +16,9 @@
     color: #0000005A
 }
 
-
+.flex{
+  display: flex;
+}
 
 /* Font import */
 
@@ -21,7 +26,7 @@
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
+  font-weight: 700;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -33,4 +38,34 @@
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
+}
+
+/* =================   nav section  ==================*/
+.nav_iteam{
+  display: flex;
+
+  
+}
+.nav_iteam a{
+  text-decoration: none;
+  color: #0000005A;
+}
+
+
+.hero_section{
+  align-items: end;
+  margin-top: 120px;
+}
+h1.fresh_flower {
+  font-size: 65px;
+}
+
+.hero_tag{
+  
+  max-width: 570px;
+  align-content: center;
+}
+
+.hero_image{
+  max-width: 570px;
 }
