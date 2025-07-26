@@ -217,6 +217,7 @@ h1.fresh_flower {
     width: 366.2px;
   height: 206px;
 border-radius: 15px;
+position: relative
 }
 
 .img_03_section{
@@ -225,19 +226,12 @@ border-radius: 15px;
   gap: 28px;
   
 }
+
 .img_03_section img{
 border-radius: 15px;
 }
 
 
-
-
-/* .bg_img{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  max-width: auto;
-} */
 
 
 .subscription-section {
@@ -311,4 +305,12 @@ border-radius: 15px;
 footer{
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
 }
+.footer_left{
+  width:359px;
+}
+.footer_right_icon img{
+  padding: 15px;
+}
+
